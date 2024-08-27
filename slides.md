@@ -282,9 +282,185 @@ clicks: 7
 </div>
 
 ---
+glowX: 90
+glowY: 10
+glowSize: 1
+clicks: 5
+---
+
+## 一些小玩具
+
+<div class="absolute top-30 left-20">
+    <div v-click="1" class="flex items-center justify-start gap-5 my-4"> 
+        <img src="/electron.svg" width="50"/><span>Electron - 使用前端技术写桌面端应用</span>
+    </div>
+    <div v-click="2" class="flex justify-start items-center gap-5 my-4"> 
+        <img src="/slidev.svg" width="50"/><span>Slidev - 前端写PPT</span>
+    </div>
+    <div v-click="3" class="flex justify-start items-center gap-5 my-4"> 
+        <img src="/uni-app.svg" width="50"/><span>UniApp - 用Vue写小程序</span>
+    </div>
+<div v-click="4" class="flex justify-start items-center gap-5 my-4"> 
+        <img src="/vuepress.png" width="50"/><img src="/vitepress.svg" width="50"/><span>VitePress、VuePress 等各种SSG (Static site generator)</span>
+    </div>
+<div v-click="5">
+...
+    </div>
+</div>
+
+---
 layout: intro
 ---
 
 How{.op50.text-2xl}
 
 <h2 important-text-5xl important-mt-0>前端要怎么学</h2>
+
+---
+glowX: 25
+glowY: 10
+glowSize: 0.3
+---
+
+# 找到属于自己的前端乐趣
+
+<div class="flex justify-center mt-[20vh] font-thin text-5xl op50">
+    Share a few of my experiences
+</div>
+
+---
+glowX: 95
+glowY: 95
+glowSize: 0.6
+---
+
+# 推荐的学习路线
+
+<div class="flex justify-center mt-[20vh] font-thin text-5xl gap-20">
+<img src="/html.svg" width="50"/>
+<img src="/CSS.svg" width="50"/>
+<img src="/JavaScript.svg" width="50"/>
+</div>
+
+---
+glowX: 90
+glowY: 90
+glowSize: 0.7
+---
+
+# 推荐的学习路线
+
+<div class="flex justify-center mt-[20vh] font-thin text-5xl gap-20">
+<img src="/git.svg" width="50"/>
+<img src="/Node.js.svg" width="50"/>
+<img src="/JavaScript.svg" width="50"/>
+<img src="/axios.svg" width="50"/>
+</div>
+
+---
+glowX: 85
+glowY: 85
+glowSize: 0.8
+---
+
+# 推荐的学习路线
+
+<div class="flex justify-center mt-[20vh] font-thin text-5xl gap-20">
+<img src="/vite.svg" width="50"/>
+<img src="/Vue.svg" width="50"/>
+<img src="/typescript.svg" width="50"/>
+</div>
+
+---
+glowX: 80
+glowY: 80
+glowSize: 0.9
+---
+
+# 推荐的学习路线
+
+<div class="flex justify-center mt-[20vh] font-thin text-5xl gap-20 op50">
+Following that, you can do any.
+</div>
+
+---
+glowX: 50
+glowY: 120
+glowSize: 1
+---
+
+# 前端必修课
+
+<div class="text-center mt-[20vh] font-thin text-3xl gap-20 op90 leading-12">
+<div>
+xxx-admin
+</div>
+<div>
+xxx-管理平台
+</div>
+<div>
+xxx-后台管理系统
+</div>
+</div>
+<div>
+<a href="https://pure-admin-thin.netlify.app/#/welcome" class="text-sm">
+pure-admin
+</a>
+</div>
+<div>
+<a href="https://fantastic-admin.hurui.me/basic-example/#/" class="text-sm">
+Fantastic-admin
+</a>
+</div>
+
+---
+layout: intro
+---
+
+选择性必修{.op50.text-2xl}
+
+<h2 important-text-5xl important-mt-0>前端选修课 - Blog</h2>
+
+---
+glowX: 100
+glowY: 80
+glowSize: 1
+---
+
+<h1 class="font-thin">some Example</h1>
+<h3 class="font-thin">体现个人风格</h3>
+<h5 class="font-thin op50">要是去面试也会有帮助</h5>
+
+<div class="mt-24">
+<a href="https://fuxiaochen.com/">fuxiaochen.com</a>
+</div>
+<div>
+<a href="https://joy-yujiepeng.xyz/en#home">joy-yujiepeng.xyz</a>
+</div>
+<div>
+<a href="https://esm.dev/">esm.dev</a>
+</div>
+<div>
+<a href="https://sarah.dev/">sarah.dev</a>
+</div>
+<div>
+<a href="https://rika-me.netlify.app/#/">rika.me</a>
+</div>
+
+---
+layout: intro
+glowX: 0
+glowY: 90
+style: 'padding-left: 9rem;'
+---
+
+<h1 class="font-thin">The End</h1>
+
+---
+layout: intro
+glowX: 50
+glowY: 50
+glowSize: 5
+---
+
+<h1 class="font-thin text-center">Question</h1>
