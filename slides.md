@@ -5,9 +5,86 @@ css: unocss
 colorSchema: dark
 transition: fade-out
 mdc: true
-glowX: 50
-glowY: 130
-glowSize: 1.5
+glowSize: 0.1
+glowX: -100
+glowY: 50
+---
+
+<div class=" fixed -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+    <div class="shell">
+      <span class="blob"></span>
+      <span class="blob"></span>
+      <span class="blob"></span>
+      <span class="blob"></span>
+    </div>
+</div>
+
+
+<style>
+
+.shell {
+  display: grid;
+  position: relative;
+  animation: spin infinite 5s linear;
+  grid-area: stack;
+}
+
+.blob {
+  --border-radius: 115% 140% 145% 110%/125% 140% 110% 125%;
+  aspect-ratio: 1;
+  display: block;
+  grid-area: stack;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 40px solid transparent;
+  border-radius: var(--border-radius, 50%);
+  mask-image:
+      linear-gradient(transparent, transparent),
+      linear-gradient(black, white);
+  mask-clip: padding-box,border-box;
+  mask-composite: intersect;
+  mix-blend-mode: screen;
+  height: 300px;
+  filter: blur(100px);
+}
+
+.blob:nth-child(1){
+  background-color: #07D;
+  background-image: linear-gradient(#07D,#3cc,#07D);
+  rotate: 30deg;
+  scale: 1.03;
+}
+.blob:nth-child(2){
+  background-color: #F43;
+  background-image: linear-gradient(#F43,#F81,#F43);
+  rotate: 60deg;
+  scale: 0.95;
+}
+.blob:nth-child(3){
+  background-color: #3A7;
+  background-image: linear-gradient(#3A7,#1f7,#3A7);
+  rotate: 90deg;
+  scale: 0.97;
+}
+.blob:nth-child(4){
+  background-color: #B1C;
+  background-image: linear-gradient(#B1C,#814,#B1C);
+  rotate: 120deg;
+  scale: 1.02;
+}
+
+@keyframes spin {
+  from{
+    rotate: 0deg;
+  }
+  to{
+    rotate: 360deg;
+  }
+}
+</style>
+
+---
+layout: center
 ---
 
 <h1 flex="~ col">
@@ -340,6 +417,7 @@ glowSize: 0.6
 <img src="/html.svg" width="50"/>
 <img src="/CSS.svg" width="50"/>
 <img src="/JavaScript.svg" width="50"/>
+<img src="/markdown.svg" width="50"/>
 </div>
 
 ---
@@ -425,11 +503,13 @@ layout: intro
 glowX: 100
 glowY: 80
 glowSize: 1
+clicks:1
 ---
 
 <h1 class="font-thin">some Example</h1>
 <h3 class="font-thin">体现个人风格</h3>
 <h5 class="font-thin op50">要是去面试也会有帮助</h5>
+<img v-click="1" src="/example.png" alt="" class="fixed top-20 right-20 w-120">
 
 <div class="mt-24">
 <a href="https://fuxiaochen.com/">fuxiaochen.com</a>
