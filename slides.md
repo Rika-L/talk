@@ -89,7 +89,7 @@ layout: center
 
 <h1 flex="~ col">
 <div text-2xl op50>认识和理解前端，掌握学习方法</div>
-<div>主题名字</div>
+<div class="font-thin">前端基础指北</div>
 </h1>
 
 <div uppercase text-sm tracking-widest op50>
@@ -106,9 +106,8 @@ style: 'padding-left: 9rem;'
 # 李卓熙
 
 <div class="leading-10 opacity-80">
-前端学习时长7个月以上<br>
+前端学习时长7个月左右<br>
 项目经验3+<br>
-关注新兴技术并将其投入到开发中<br>
 </div>
 
 
@@ -129,6 +128,8 @@ layout: intro
 What{.op50.text-2xl}
 
 <h2 important-text-5xl important-mt-0>前端是什么？</h2>
+
+<!-- 负责页面绘制，算是一个网站的门面 -->
 
 
 ---
@@ -159,6 +160,9 @@ JavaWeb - 即当爹又当妈的时代
 <div class="mt-4">前端：专注于用户界面和用户体验</div>
 </div>
 
+
+<!-- 旧现代的开发方式中，一个程序员同时处理数据和页面绘制 -->
+
 ---
 layout: center
 class: text-center
@@ -168,6 +172,9 @@ glowSize: 0.5
 ---
 
 #### For example {.op60}
+
+<!-- 可以举一个前后端分离开发的例子 -->
+
 
 ---
 layout: center
@@ -217,6 +224,11 @@ axios.post(url,{
 
 <img src="/loginSuccess.png" width="200" v-click="7"/>
 
+<!-- 前端先画好一个登陆的页面给后端传数据<br/> 
+在这个例子中前端只需要专注于页面交互的实现而将数据的存储，处理等交给后端
+-->
+
+
 ---
 glowX: 100
 glowY: 100
@@ -231,6 +243,7 @@ layout: center
 <div>网页</div>
 <div>小程序</div>
 <div>应用</div>
+<div>游戏</div>
 <div>甚至是。。。PPT？</div>
 
 </v-clicks>
@@ -315,6 +328,9 @@ clicks: 5
     </div>
 </div>
 
+<!-- 看着挺唬人，但不是每个都必要学的，当前只需要精通其中一个即可 -->
+
+
 ---
 layout: center
 class: text-center
@@ -324,6 +340,9 @@ glowSize: 0.5
 ---
 
 <h1 class="!text-7xl font-thin">Vue.js</h1>
+
+<!-- Vue是一个比较火的开源前端框架，其中一部分原因是他的作者是一个新加披籍华人吧 -->
+
 
 ---
 glowX: 50
@@ -358,6 +377,7 @@ clicks: 7
     </div>
 </div>
 
+
 ---
 glowX: 90
 glowY: 10
@@ -385,6 +405,9 @@ clicks: 5
     </div>
 </div>
 
+<!-- 可以举下例子，比如qq -->
+
+
 ---
 layout: intro
 ---
@@ -393,17 +416,71 @@ How{.op50.text-2xl}
 
 <h2 important-text-5xl important-mt-0>前端要怎么学</h2>
 
+<!-- 每个人的学习方法都不一样，所以我给的是一些思路吧 -->
+
 ---
 glowX: 25
 glowY: 10
 glowSize: 0.3
 ---
 
-# 找到属于自己的前端乐趣
+# 找到属于自己的前端动力
 
 <div class="flex justify-center mt-[20vh] font-thin text-5xl op50">
     Share a few of my experiences
 </div>
+
+<!--
+刚开始学前端的时候我也觉得很无聊，一方面是学的东西有点杂，感觉各种东西混在一起，学完还不知道怎么用吧<br/>
+后来开始做项目之后我发现所有学到的都能串起来，运用起来，就是感觉他们发生了一些化学反应吧<br/>
+从开始写一个组件，写一个路由，到最后自己真的把一个项目做了出来，每一步都能给我带来很大的成就感吧可以说<br/>
+差不多寒假还有一个多星期开学的时候吧，想赚钱，然后跟同学一起搞了个gpt镜像站吧，结果还是没赚到钱，但是那段时间可以说是我能力提升最快的时候吧，有图片可以看看
+-->
+
+---
+layout: center
+class: text-center
+glowX: 50
+glowY: 50
+glowSize: 0.5
+---
+
+<div class="text-gray-400 text-3xl">interestDriver</div>
+<h1 class="!text-7xl font-thin">兴趣驱动</h1>
+
+<!-- 
+可以从一个idea入手，可能是一个组件，可能是一个功能，总是是一个有兴趣去实现的部分，自己实现一次，实现的过程中也可以提升自己的能力<br/>
+举个例子 什么调色板 演示一下
+-->
+
+---
+layout: center
+class: text-center
+glowX: 50
+glowY: 50
+glowSize: 0.7
+---
+
+<div class="text-gray-400 text-3xl">lazyDriver</div>
+<h1 class="!text-7xl font-thin">懒惰驱动</h1>
+
+<!-- 
+比如说开发的过程中部分代码会重复很多次，写多了就懒得写了，就可以考虑封装成组件，封装组件比直接写更有难度，也可以提升自己吧
+-->
+
+---
+layout: center
+class: text-center
+glowX: 20
+glowY: 20
+glowSize: 1
+---
+
+<h1 class="!text-7xl font-thin">Code Review</h1>
+
+<!-- 
+重点针对已经有项目能力的同学
+-->
 
 ---
 glowX: 95
@@ -531,6 +608,7 @@ clicks:1
 layout: intro
 glowX: 0
 glowY: 90
+glowSize: 2
 style: 'padding-left: 9rem;'
 ---
 
