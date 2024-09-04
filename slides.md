@@ -418,69 +418,6 @@ How{.op50.text-2xl}
 
 <!-- 每个人的学习方法都不一样，所以我给的是一些思路吧 -->
 
----
-glowX: 25
-glowY: 10
-glowSize: 0.3
----
-
-# 找到属于自己的前端动力
-
-<div class="flex justify-center mt-[20vh] font-thin text-5xl op50">
-    Share a few of my experiences
-</div>
-
-<!--
-刚开始学前端的时候我也觉得很无聊，一方面是学的东西有点杂，感觉各种东西混在一起，学完还不知道怎么用吧<br/>
-后来开始做项目之后我发现所有学到的都能串起来，运用起来，就是感觉他们发生了一些化学反应吧<br/>
-从开始写一个组件，写一个路由，到最后自己真的把一个项目做了出来，每一步都能给我带来很大的成就感吧可以说<br/>
-差不多寒假还有一个多星期开学的时候吧，想赚钱，然后跟同学一起搞了个gpt镜像站吧，结果还是没赚到钱，但是那段时间可以说是我能力提升最快的时候吧，有图片可以看看
--->
-
----
-layout: center
-class: text-center
-glowX: 50
-glowY: 50
-glowSize: 0.5
----
-
-<div class="text-gray-400 text-3xl">interestDriver</div>
-<h1 class="!text-7xl font-thin">兴趣驱动</h1>
-
-<!-- 
-可以从一个idea入手，可能是一个组件，可能是一个功能，总是是一个有兴趣去实现的部分，自己实现一次，实现的过程中也可以提升自己的能力<br/>
-举个例子 什么调色板 演示一下
--->
-
----
-layout: center
-class: text-center
-glowX: 50
-glowY: 50
-glowSize: 0.7
----
-
-<div class="text-gray-400 text-3xl">lazyDriver</div>
-<h1 class="!text-7xl font-thin">懒惰驱动</h1>
-
-<!-- 
-比如说开发的过程中部分代码会重复很多次，写多了就懒得写了，就可以考虑封装成组件，封装组件比直接写更有难度，也可以提升自己吧
--->
-
----
-layout: center
-class: text-center
-glowX: 20
-glowY: 20
-glowSize: 1
----
-
-<h1 class="!text-7xl font-thin">Code Review</h1>
-
-<!-- 
-重点针对已经有项目能力的同学
--->
 
 ---
 glowX: 95
@@ -537,6 +474,91 @@ glowSize: 0.9
 <div class="flex justify-center mt-[20vh] font-thin text-5xl gap-20 op50">
 Following that, you can do any.
 </div>
+
+---
+glowX: 25
+glowY: 10
+glowSize: 0.3
+---
+
+# 找到属于自己的前端动力
+
+<div class="flex justify-center mt-[20vh] font-thin text-5xl op50">
+    Share a few of my experiences
+</div>
+
+<!--
+刚开始学前端的时候我也觉得很无聊，一方面是学的东西有点杂，感觉各种东西混在一起，学完还不知道怎么用吧<br/>
+后来开始做项目之后我发现所有学到的都能串起来，运用起来，就是感觉他们发生了一些化学反应吧<br/>
+从开始写一个组件，写一个路由，到最后自己真的把一个项目做了出来，每一步都能给我带来很大的成就感吧可以说<br/>
+差不多寒假还有一个多星期开学的时候吧，想赚钱，然后跟同学一起搞了个gpt镜像站吧，结果还是没赚到钱，但是那段时间可以说是我能力提升最快的时候吧，有图片可以看看
+-->
+
+---
+layout: center
+class: text-center
+glowX: 50
+glowY: 50
+glowSize: 0.5
+---
+
+<div class="text-gray-400 text-3xl">interestDriver</div>
+<h1 class="!text-7xl font-thin">兴趣驱动</h1>
+
+<!-- 
+可以从一个idea入手，可能是一个组件，可能是一个功能，总是是一个有兴趣去实现的部分，自己实现一次，实现的过程中也可以提升自己的能力<br/>
+举个例子 什么调色板 演示一下
+-->
+
+---
+layout: center
+class: text-center
+glowX: 50
+glowY: 50
+glowSize: 0.7
+---
+
+<div class="text-gray-400 text-3xl">lazyDriver</div>
+<h1 class="!text-7xl font-thin">懒惰驱动</h1>
+
+<!-- 
+比如说开发的过程中部分代码会重复很多次，写多了就懒得写了，就可以考虑封装成组件，封装组件比直接写更有难度，也可以提升自己吧
+-->
+
+---
+layout: center
+class: text-center
+glowX: 50
+glowY: 50
+glowSize: 0.001
+---
+
+<div class="text-gray-400 text-3xl">bottomOut</div>
+<h1 class="!text-7xl font-thin">走出低谷</h1>
+
+---
+layout: center
+class: text-center
+glowX: 50
+glowY: 50
+glowSize: 0.001
+---
+
+<img src="/bottom.png" class="h-130">
+
+---
+layout: center
+class: text-center
+glowX: 20
+glowY: 20
+glowSize: 1
+---
+
+<h1 class="!text-7xl font-thin">Code Review</h1>
+
+<!-- 
+重点针对已经有项目能力的同学
+-->
 
 ---
 glowX: 50
